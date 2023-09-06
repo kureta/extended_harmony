@@ -82,10 +82,6 @@ repos:
     hooks:
       - id: autoflake
         args: [--remove-all-unused-imports, -i]
-  - repo: https://github.com/kynan/nbstripout
-    rev: 0.6.1
-    hooks:
-      - id: nbstripout
   - repo: https://github.com/nbQA-dev/nbQA
     rev: 1.7.0
     hooks:
