@@ -17,6 +17,7 @@ pyvis = "^0.3.2"
 
 [tool.poetry.group.dev.dependencies]
 nbstripout = "^0.6.1"
+pre-commit = "^3.4.0"
 
 [build-system]
 requires = ["poetry-core"]
